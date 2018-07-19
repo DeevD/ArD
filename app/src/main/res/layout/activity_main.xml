@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:text="ONE"
+        android:layout_height="wrap_content"
+        android:id="@+id/task_1"/>
+
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_below="@id/task_1"
+        android:layout_width="wrap_content"
+        android:text="two"
+        android:layout_height="wrap_content"
+        android:id="@+id/task_2"/>
+
+    <Button
+        android:layout_centerInParent="true"
+        android:text="three"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/task_2"
+        android:layout_height="wrap_content"
+        android:id="@+id/task_3"/>
+    <Button
+        android:layout_centerInParent="true"
+        android:text="LIST"
+
+        android:layout_width="wrap_content"
+        android:layout_below="@id/task_3"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"/>
+
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:text="DELETE"
+        android:layout_below="@+id/list"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteAll"/>
+
+
+</RelativeLayout>
